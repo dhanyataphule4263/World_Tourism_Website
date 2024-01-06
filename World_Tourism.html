@@ -1,0 +1,260 @@
+<html>
+    <head>
+        <title>Indian Tourism</title>
+		<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"></link>
+	<link rel="icon"type="image/x-icon"href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAB5CAMAAACjkCtXAAAAkFBMVEX/mTMSiAf/////khf/4s3K3csAfgAAAIDe3uza2uoAAHr8/P7y8vjKyuGMjL7p6fKjo8rj4+7R0eVxca5OTpoAAIirq861tdV/f7Q8PJdMTJwSEohVVaJiYqRCQpavr868vNkrK4+/v9VJSZ+WlrtnZ6IeHo2VlcNubqIgIIgvL4+OjrknJ5GFhbQ1NZJXV50aV7fSAAACZklEQVR4nO2Y6W6jMBCA2enuGnwAxuHIwVFi6rRp0vd/uzXdSCt1/w5WLc2nCBMhMV9Gk8FMkhAEQRAEQRAEQRAEQRAEQRAEQRAEEQ9PUZL8jJIEooS0Q7KVdtrkxuRNutHtN9FWHeP88emU2CDCBtrZwhjbH45KHQ97f9pn+DHQtYXjfGCZENIjRMYGzh16wtG1e1a7QoMC0NqXC+jC1azHjoKsLU5s38tMgK4gy6DSIDLZ79kJOd/I2oYNmYTC5zoHpfwBVAEyG5jBjYOrPTI+Sd/0ygJyOc8yh6L0zVBOnI2ogVC1i+faaKgUCANlNc9VCUaAqkCb+rnAjISqnfNO+qVtoWwqO8+2apr1G4DseI4ZCVNbvPIWprVGGrlLz/N8TneyWatkgpa/Yv4rMbVH9uYzOzsF1jbdMo5L11gLys3+2htqdWNq37yZT6l0Rne268oy90tqnC8c4X/TDTEUorY8HStdTWMK2e5qXWvM6Oz1kIFuJ3/heJJ4sRC1ixdm/TF1vSkb09zr+u6X0vQu9V3EshfEXoKordld/z1T7qrOrK7ZsJ49rt6ZxouFqc0/pJpysyyXS9+91573rr9clqXPW1V8fFftf9m2VzXEku0vtb33tT2a8dvX9v+dpI2hk3zp27dI+vb6lBwjfEpGuieJdAfo99ssxv12pG83sb5Lxvrm/jknuUY3J3lMperoplKRzgBXopy4fhLjfHt7SDskya8oSX5HSfIjSkg7JKQdEtIOCWmHhLRDQtohIe2QkHZISDskpB0S0g4JaYeEtENC2iEh7ZCQdkhIOySkHRLSDskfFNqVGPmFFHAAAAAASUVORK5CYII="></link>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="crossorigin="anonymous"></script>
+	<script>
+	document.addEventListner("DOMcontentLoaded",function()
+	{
+	val element=document.getElementById("myCarousel");
+	val myCarousel=new.bootstrap.carousel(element,{interval:500});
+	});	
+	</script>
+
+  <style>
+ body{
+     background-color:#FCBCCE;
+     height:1000px;
+   }
+
+.container-fluid h1{
+    color:black;
+    font-size:25px;
+    padding-top:10px;
+}
+.container-fluid{
+    margin-top:0px;
+	height:55px;
+}
+
+*{
+padding: 0px;margin: 0px;
+}
+a{
+margin:10px;
+}
+.container{
+            margin-top:20px;            
+            border-width: 0px;
+            background-color:#F2EEA4;
+} 
+.carousel-inner img{
+    margin:auto;
+	dislplay:flex;
+	height:500px;
+	margin-bottom:10px;
+	border-radius:20px;
+  }
+ 
+</style>
+    </head>
+    <body> 
+	    <center><p>
+	    <div class="container-fluid" style="background-color:#FE8DAD;">
+		<a href="C:\html\pro.html" class="navbar-brand text-dark"><img border="0" alt="india" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAAB7CAMAAADNA9uJAAABjFBMVEX///8AAAD/wg9GIgL///1GIQT/xA0AfgAAegAwAAAAdgAAfAAqAAAAcAD/6wD/1wA0AADt7e319fXc3Nw4AACWlpapqamAgIAlJSVhYWHi4uIeAAA8FQAkAADV1dXPz8/CwsI4ODgREREbGxv+/ulCGwA3DACJiYkvLy+0tLRMTExBQUG827r8++7/zhqLOQCSRgDfsh9pRw3RpSBXV1dwcHDw9+9Ql0+vzK53sHja6tqqyqIrhiyDroBWk1STw5JCj0BxpHFmlWOcvZlAlj3G3cQpjSlipmD7+sr68XkAXABNoE/FyKHPrZf+7i7+9I785TuukG2relW2qZ39863/4VHK7M7v3dWfWjlqUU3975y/k3iugGR9bmL9/NihaUWCJAD47WHcxLdPMymvhx6JZxZxXU/842OWhXqTTRpWNBNIEgS+lx4XTwBBUwscQABkMAAqFAyddRfLwDJPNQA7PEs6LQj82XxxWBPLwVnJxngsLBswHwBjUh37yDv95aqak3YeJjr902K+r4YVkLraAAAK+klEQVR4nO1aAVvaWBZ9IQkCgkAQUIgQkERREwWUKtpqV6k4O1W30nWkI90KWstmd2YYt7o7U5xx/vje9xIUFWhdSOX7lvN9FQImObn3nnPvexahPvroo48++uijjx4Co//raaSfLD42hS/AkuM50/OxzNgcy/DC6Dx7km56cdOygt9AONOZdE9yROipY8BB8r34bGU13VuRTGcymTS8zqxuDNog1+klx+pjc7qDzPM1y8DA2nOI3HPbgAVh/Vj+lHlsWrfAZNaXVhyWQQtEL7Ni24SAOjZmMj2Vagwmnd2wDQ7YnqYXQd3pNcva0+xjc2qCmaWlzcFBiOVGFq06BrLYhhimt6LJgOM8sUAsF2cyGdD1zGMTagpmecO2YXHYbGkmQySTJnLvEeCMZrLZLLbuTOa5BUoShPTCgbHZujChEnA15BjSnQwuDLh69tnKAGR65cmz9QwYJpNZXrXZBgYtAxabbb31eaRkt3L4KXMyMrh8lx0WXIwWoOX45s/fvuTgs8yMY3PJtvrE9k1WEJqflssB09j2DryN7caMpIjj6LCtbL6wrG5YXqwtL//lFcpmcXCyM2gdynNmnZf27p5DYljcjSG0MwQk887XMsm5USQRemZbT2cs2bRt7a/Z/e9ecYhxNMyU3AFP2723pjdGO8o5d5A8NJQHjs4C/hyH1iCSmadpLBy0+ozh3sx+jwlsOp7iF1JlhxJNs64TroElg2R8kHfuovzQUCy263yNUDG/tR0zjGRaj1IW7b/92xvydqmuFwbt2WmWpunhk4aBiGFiIBdUAJK5oXeo6Hwdg7TjmBqscLj80ezsS3IXZgNktI5DiQSJZlkrz7I8H2o8oTBUgHQ7ZfTuHZKdORzR7bzRRgTXfjk7+0Y/Wgb/cWCHlEsiy4rl4yTPirzQ8PtFSDPzHtgx+RjKFdHWUCGm+6VxHBnM8WV9sbhkW7IMrqSR74SnaauqKIpqF9lh780jydtDW0jOF+q0dvJILrx/v1PYkQ3keDQ79+p6WbO2uGgbsC0funialY4Vk9lkTlV42nrK1ZUN+R7KMfWTwShltOUE7BolcIz9D3Mf3NecV5mnjsEBxzAohk+agaLZpCQqIu06xISKWxA3SPDQLUIxJ8QR59w4km/nZo/q18fBWpqBAf3vNC1VMMdj1Ww2KxWWlkoezHLX+V6+jimnnVYsaicbx3F/du47rn5ABgfQjmNYsh9DqiGQdDKlKGUrBLYUgu9B169jupSZg726pea38rJhPBnm+7m5l8xJoEGbz/4x8E81oSjAEbOsBJOJGoSSFoNxTAfKb4uMQdzJsFVjybwDqwSRG2NDDHJ/mJuTvfYT982Hhz84UpihmXA0JyReVKqgdVDSKY5lIS+TBg4NiXUJ+OliO3lMc9cYS2dwtt/u8/TwgX7MoPjwDypwJHEkuilLYqXsojGsh9z1mfExCRyA39dzEMvlY8ZYpeY/JZGmXacMySEKDYPzaAyBo5qAWJ6xokhrkEqC7o8hnlePwehF3DRjhbxhJolws5n7kTBw7RE5cCUpqZiuSSYqUJxlO0u6OIboWvCQEw+CZUVJ8jR/gic3IicDSf4oagSseHRkDiSxZiYcFfKjHIT6rIh1jvDKj50IbnRqr+JngQ/AQRksp91uxjLANR4dzUKURJ7FsogjDjqNqoWxjA3SZFYkMaGoUp0kAe86OLQeE6dXYZob3oPsF53OHXgRukTSPdp4tI9t+0K1ssCV3ztxSVU92Ur5p3JCARpWyHiSv8USkp6Er7DNV10sbf95O4eKhfcFFPe2uuuDMBFCPj/0Cu0IhsZhWgQWKR4yyko8yx8rej0qCTtbTQANe1JJSeItklrHxKIyXYiseLa9XYT2wwTmOeQPtSfwJfBQAbQwgcJ+7ZArwcyYwP25nlFJJSVpxiyTQbsKPRHKL5WUxiSY3fRAVhLYR1NliHptTGRd1aGdkB+5owHkX+iYojuAfCMhNOpFvik3CaTE8ilCKlXPKOase6T5OFgGN6+MgXiUVDlZwc6IA5nQHqRahd9JJSuV4O7P/+Lc4wLyT3Ko01BywNBPCSjiRd4RzLIkBlXFRKqrbK+nsp5wkE21jGc1O40zq5gTqeQY5P26JJSzC1yaicTxx4+yOxpH85Qb+X0dh3IEgkj5udFR5AWye1YJc0ylEnDHC15Lp6RzMJMBA/+oWi9wL8dEYbiEiUg5z5m1llnB4jJdUP/+DyWEotPuQKRT7QTcyD05H4hTo56F+YCf8h7Yy0QBFfaskjBVdHXYVX24uO47El9JlmvEkxJnPO06QjH4slYsgParidqn8bPIL2FfdIrzUcCxs3x7xicCaILyekei3lHKN00Fq4qawjFJ2nnanPpJM2woU4VE8vxKI5kCBYvWsQvC0nzh4g/RpclUkJGs/CpJQYo6/TTiXaAW4pNQTsJ0h9rhpqIT7vB0dHqcmhynRijqU632MYHvfJy8UBU8RuCUiywkEQLF1PTmaOXpSpK1VolclGNJClzW8E4L+u3i+IyiouRykUnKiy8e74wjQKCoibifusbHRPUTnnkUPD8qSUmLpVhRTecyKprINFQ7/0NN1BR1DDs9LsUq5ZNJqxZ+f6/eXGvK65unFtyfo/BZ+AV3fIqKTt5cmSqPfEwoegmak3pZstIYtPJz+PSqUMRbZ1g1qnVMLcgFkM8fJQ7H0UtB1VwDrjruD3gmwp2SDMxHvGEhQjUiSv2iKQW7TdBuhSEX0ywFUPEqX2S0KfOS1IS9AoNZ8eocCfAInJ+6A38ovhDt2IEAwjyFi/EOfjs3m64wS8WUUqtJPJtJJ7fOy8G3SjVY0huqG4Wjdy8ShU8muCb3fDg4YeoeR4r6JWW+LF4R84PqVGlo1lbh1k5VDixI2Rs+1FaKzESTi1BeT1coQigjo82uT1VrMrqsmTSbMZcrVrHUoAG8krky1ZDn4BTP5eFIs0tMLkS6RBLFo/cSRfDrtwjJxZgsF0mrUQ/GDhtPgwhe5uH1KIzc96pR40hFAl3iuH84Fmx6D4pa0AuqeFkoFHJyvHRbqPXkxyebnz56eti5/xAETvdC8abJAkR9HGpc4t9xE7IYDDUraXJyFyyyEe7QQos7TQn6PgbD3PtfBPiQm2heK9SIL4C6vYURb0ESct5Oob4WFClqujvecwvh+15Zx7i/1f2ampcOf/c54t7T+obRm5mQuyEcam5dGrrRZ5rA1+aWUGFEBNzo+DgsCjA8bR4K3Ke7mrkG5xtvd9uIF2ZX4oewvOLi7aII5tOFJWILuNve+AHofIXYBu3D8+XoeDhrBy7SFY4GiaaO1m75AEwZ4JC3EIp0zNFrNEfIuLfDMBqn60YIbZ3oM2jZnLqO5tPhF2DaUFnfgRDp8TBqaLpi+UwYv041NsLzwGBGv4Kom6DtwHEX891aFj4UnP9a55PNFD95PfDi8f3RUJ8xpz0e4c4yYTQeCtQtNf4omW6g6YeV4Kg2HDaOHwL5xAdfzne+adY53CGPHqiGIo3oM607HHjkKN5DQ7Ifm0pr3OS7O39DMgLCzYJytNeSrMNze/nq60Ga9zcqpr7mMPFFiDcz87ZbG18drfp4tEvbuN2Au/UOTO+onGs5t0WER6bWAK4VSUM2pf5XeJtun8V9X3/MbYtmu1M9JW4M792/9YxQUYM2zjpA4M5u1gTXexzR3Yz3XL/REQ5zC7g5RuKcr1t/nzEEoXA43JN57qOPPvroo48++uijjz7+L/BfmKKDb8nXlqYAAAAASUVORK5CYII=" width="30" height="30"><h2>Indian Galore</h2></a>
+		</div>
+		</p>
+		</center>
+		<a draggable=true>dhanyata raghunath phule</a>
+        <nav class="navbar stricky-top navbar-expand-lg navbar-info bg-info">
+            <div class="container-fluid">               
+                <button type="button" class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#navbarcollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <div class="navbar-nav">
+				            <div class="p-0 container-fluid bg-transparant">
+	                        <a class="m-2 btn btn-warning" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">Home</a>		
+	                        </div>
+	                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+	                            <div class="offcanvas-header">
+		                            <h5 class="offcanvas-title">Home</h5>
+			                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+		                        </div>
+		                        <div class="offcanvas-body">		                       
+			                        <div class="dropdown mt-3">
+			                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Places For Tourism </button>
+				                         <ul class="dropdown-menu">
+				                            <li><a class="dropdown-item" href="file:///C:/html/gulmarg.html">Gulmarg</a></li>
+					                        <li><a class="dropdown-item" href="file:///C:/html/ladakh.html">Ladakh</a></li>
+					                        <li><a class="dropdown-item" href="file:///C:/html/manali.html">Manali</a></li>
+					                        <li><a class="dropdown-item" href="file:///C:/html/naintal.html">Naintal</a></li>
+				         	                <li><a class="dropdown-item" href="file:///C:/html/Wayanad.html">Wayanad</a></li>
+											<li><a class="dropdown-item" href="file:///C:/html/Auli.html">Auli</a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+											<li><a class="dropdown-item" href="#"></a></li>
+				                          </ul>
+			                        </div>	
+		                        </div>
+	                        </div>	                    
+                                <a href="#" class="nav-item btn btn-warning">profile</a> 
+                                <a href="#" class="nav-item btn btn-warning">message</a>
+                                <a href="#" class="nav-item btn btn-warning disabled" tabindex="-1">report</a>   
+                        </div>
+                              <div class="navbar-nav ms-auto">
+                              <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+                              </div>
+                    </div>
+            </div>
+        </nav> 
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+	    <ol class="carousel-indicators">
+		    <li data-bs-target="myCarousel" data-bs-slide-to="0" class="active"></li>
+			<li data-bs-target="myCarousel" data-bs-slide-to="1"></li>
+			<li data-bs-target="myCarousel" data-bs-slide-to="2"></li>
+			<li data-bs-target="myCarousel" data-bs-slide-to="3"></li>
+			<li data-bs-target="myCarousel" data-bs-slide-to="4"></li>
+		    <li data-bs-target="myCarousel" data-bs-slide-to="5"></li>
+			<li data-bs-target="myCarousel" data-bs-slide-to="6"></li>
+			<li data-bs-target="myCarousel" data-bs-slide-to="7"></li>
+			<li data-bs-target="myCarousel" data-bs-slide-to="8"></li>
+			<li data-bs-target="myCarousel" data-bs-slide-to="9"></li>				
+		</ol>
+        <div class="carousel-inner" style="padding-top:5px;">
+        <div class="carousel-item active">
+		<img src="https://cdn.pixabay.com/photo/2016/04/05/11/04/india-1309206_640.jpg" class="d-100 w-100" alt="slide 1">
+		</div>      
+		<div class="carousel-item">
+	    <img src="https://cdn.pixabay.com/photo/2020/02/02/17/24/travel-4813658_960_720.jpg" class="d-block w-100"alt="slide 2">
+	    </div>
+		<div class="carousel-item">
+	    <img src="https://cdn.pixabay.com/photo/2018/02/05/15/03/rajasthan-3132408__340.jpg"class="d-block w-100"alt="slide 3">
+	    </div>
+		<div class="carousel-item">
+		<img src="https://cdn.pixabay.com/photo/2018/06/11/06/58/hope-3467922__340.jpg" class="d-100 w-100" alt="slide 4">
+		</div>
+		<div class="carousel-item">
+		<img src="https://cdn.pixabay.com/photo/2016/11/18/07/19/buildings-1833543__340.png" class="d-block w-100" alt="slide 5">
+		</div>
+		<div class="carousel-item">
+	    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52REUBAvgdXsqIJSlCEkma7UmowTv9RVRcA&usqp=CAU"class="d-block w-100"alt="slide 6">
+	    </div>
+		<div class="carousel-item">
+	    <img src="data:image/jpeg;base64,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"class="d-block w-100"alt="slide 7">
+	    </div>
+		<div class="carousel-item">
+	    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAmlKl7cwidg0s6G25xeUPCIV3v0KQOQDI_g&usqp=CAU"class="d-block w-100"alt="slide 8">
+	    </div>
+		<div class="carousel-item">
+	    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJS2ajWfEdnKb7DEjQBkT145HzvYATrhIJg_ETTBWRQ67npZHtdlsGYkGV8q-9dGQGKsc&usqp=CAU"class="d-block w-100"alt="slide 9">
+	    </div>
+		<div class="carousel-item">
+	    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR356NpvB4tnFQEa8G-5_vguN3yXTD60uJX3w&usqp=CAU"class="d-block w-100"alt="slide 10">
+	    </div>
+        </div>	
+        <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon"></span>
+        </a>	
+        <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                 <span class="carousel-control-next-icon"></span>
+        </a>
+	</div>
+	<div>
+	<center>
+	<p><h3>Indian Galore</h3>
+	  <b>India</b> is a country that attracts millions of tourists every year and is considered <br>one of the most popular tourist destinations<br> in the world.These visitors are attracted to its natural beauty and cultural heritage. <br>It has many historic sites as well like the Taj Mahal, Golden Temple, Red Fort, etc.<br><br>
+	  It encompasses Land based, Air based and Water based <br>adventerous activities.Land based Adventure Tourism in India, All Terrain Vehicle Tours (ATV),<br> Bungee Jumping, Cycling Tours, Camel Safaris, Horse Safaris,<br> Jeep Safaris, Motorcycle.
+	</p>
+	<p>Tourism has won a wide recognition as an important industry in the <br>district in view of its potential for creation of employment opportunities<br> and generation of income on a large scale.<br> This industry has a direct bearing on the socio-economic scene of the district.<br> Tourism industry provides employment to a large number of people engaged in <br>the related sectors like transport, Hotels and catering service, cottage industry etc. <br>Tourism promotes economic activities in the remote areas.
+	</p>
+	</center>
+	</div>
+	    <footer style="text-align:center;background-color:#FD95B3;margin-top:300px;">
+       <h5>Published by tourism galore</h5>
+	   <p> © copyright 2013-2022</p>
+       </footer>
+        <div class="modal" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Tourism Galore</h5>
+						
+                        <button type="button" class="btn-close" data-ds-dismiss="modal"></button>
+                    </div> 
+                    <div class="modal-body">
+                        <div class="container-fluid bg-primary text-center">
+                            <h1 >login Form</h1>                            
+                        </div>              
+	                         <br>
+                            <h1 style="font-size:20px;">Personal Details:</h1>  
+                            <div class="m-2">
+                                <form>
+                                    <div class="mb-3">
+                                        <label class="form-label">Full Name:</label>
+                                        <input type="text" class="form-control" placeholder="Name" required>
+                                        <hr>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label class="form-label">Address:</label>
+                                        <input type="address" class="form-control" placeholder="Enter the valid address" required>
+                                        <hr>
+                                    </div>    
+                
+                                    <div class="mb-3">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control" placeholder="Email" required>
+                                        <hr>
+                                    </div>    
+                                    <div class="mb-3">
+                                        <label class="form-label">Password</label>
+                                        <input type="password" class="form-control" placeholder="password" required>
+                                        <hr>
+                                    </div>  
+                                    <div class="mb-3">
+                                        <label class="form-label">Contact No:</label>
+                                        <input type="number" class="form-control" placeholder="Contact No" required>
+                                        <hr>
+                                    </div>
+                
+                                    <div class="mb-3">
+                                        <label class="date">Birthday Date:</label>
+                                    </br>
+                                        <input type="date" class="date" placeholder="enter the birth date" required>
+                                        <hr>
+									</div>	
+                
+                                    <div class="mb-3"> 
+                                      <label class="gender">Gender :</label>
+									  <input type="radio" name="gender">Male
+									  <input type="radio" name="gender">Female
+									  <input type="radio" name="gender">Other
+                                    </div> 
+									<hr>
+									 <div class="mb-3">
+                                        <label class="form-label">Nationality</label>
+                                        <input type="nation" class="form-control" placeholder="nation" required>
+                                        <hr>
+                                    </div>    
+									<div>
+									<label classs="age">Age:</label><br>
+									<input type="radio" name="age">10-19<br>
+									<input type="radio" name="age">19-25<br>
+									<input type="radio" name="age">25-35<br>
+									<input type="radio" name="age">35-45<br>
+									
+									</div>
+                                     <hr>
+                                    
+                                    <div class="form-check">
+		                              <input class="form-check-input"type="checkbox"required>
+		                               <label class="form-check-label">Remember me</label>
+		                            </div>
+                                    <button type="submit" class="btn btn-danger">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Reset</button>
+                                     
+                                </form> 
+                            </div>
+                    </div>
+               <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="model-footer">close</button>    
+               </div>
+              </div>            
+           </div>
+		</div>
+    </body>
+</html>
